@@ -23,9 +23,11 @@ while (listOne < firstList.length && listTwo < secondList.length) {
 
     if (start =< end) {
         console.log(start < end) {
-            
+
         }
     }
   }
-}
+};
 
+// Output will need to be displayed in an array somewhere!
+let outPut = [];
