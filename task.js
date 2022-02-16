@@ -10,7 +10,7 @@ function GetIntersection (firstList, secondList) {
     let listOne = 0;
     let listTwo = 0;
 
-//While loop will be best for this due to code being true when executed  
+//While loop will be best for this due to code being true when executed. Ideal for knowing the length on how many times the loop should run.
 
 // listOne will be less than firstList but also get the whole length of the list. This will also be the same for listTwo.
 while (listOne < firstList.length && listTwo < secondList.length) {
@@ -20,5 +20,12 @@ while (listOne < firstList.length && listTwo < secondList.length) {
 
     // max and min are used to go from smallest integer to largest //
     let end = math.min(secondList[0])
+
+    if (start =< end) {
+        console.log(start < end) {
+            
+        }
+    }
   }
 }
+
