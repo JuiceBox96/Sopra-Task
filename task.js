@@ -29,12 +29,12 @@ function GetInterSection (firstList, secondList) {
 while (listOne < firstList.length && listTwo < secondList.length) {
 
     // Had to search and go through past resources used. Found math.max function to be more reliable for the exercise//
-    let start = math.max(firstList[listOne][0], secondList[listTwo][0])
+    let start = Math.max(firstList[listOne][0], secondList[listTwo][0])
 
     // max and min are used to go from smallest integer to largest //
-    let end = math.min(firstList[listOne][0], secondList[listTwo][0])
+    let end = Math.min(firstList[listOne][0], secondList[listTwo][0])
 
-    }
+    
 //.push used to push (add) to the array. in this case should push to empty outPut variable
     if (start <= end) {
         outPut.push[start,end];
@@ -46,8 +46,9 @@ while (listOne < firstList.length && listTwo < secondList.length) {
                 } else {
                     listTwo++
                 }
+  }
 // return Output will be return to the array associated
-    return outPut
+    return outPut;
 }
 
 
