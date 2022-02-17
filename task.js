@@ -42,10 +42,10 @@ while (listOne < firstList.length && listTwo < secondList.length) {
 
     if (firstList[listOne][0] < secondList[listTwo][0]) {
         // listOne and listTwo will initiate the count using ++ increment 
-                    listOne++
-                } else {
-                    listTwo++
-                }
+      listOne++
+    } else {
+      listTwo++
+    }
   }
 // return Output will be return to the array associated
     return outPut;
