@@ -43,3 +43,7 @@ firstList.length + secondList.length >= 1 (the lists are not empty)
 endi > starti+1 (end of list is larger than start)
 0 <= startj < endj <= 109 (as above but for second list)
 endj > startj+
+
+### Planning Challenge
+
+https://flame-philosophy-db3.notion.site/Project-Interval-List-Intersections-b58770dee43b4257b1edafec2b5d6824
