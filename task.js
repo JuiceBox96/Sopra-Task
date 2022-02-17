@@ -3,7 +3,7 @@
 Write a test method which passes the supplied examples.*/
 
 
-function GetIntersection (firstList, secondList) {
+function GetInterSection (firstList, secondList) {
     
     //let variable used in this case as listOne and listTwo will be compared.//
     //Came to this conclusion as both are expecting outputs 
@@ -11,6 +11,8 @@ function GetIntersection (firstList, secondList) {
     let listTwo = 0;
 
 //While loop will be best for this due to code being true when executed. Ideal for knowing the length on how many times the loop should run.
+
+//Another way this could have been created is possibly through for loop with another for loop nested. Haven't tested this method. 
 
 // listOne will be less than firstList but also get the whole length of the list. This will also be the same for listTwo.
 while (listOne < firstList.length && listTwo < secondList.length) {
@@ -23,8 +25,11 @@ while (listOne < firstList.length && listTwo < secondList.length) {
 
     }
 
-    if(//statement here//)
-  }
+
+
+}
 
 // Output will need to be displayed in an array somewhere!
 let outPut = [];
+
+getInterSection()
