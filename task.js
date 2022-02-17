@@ -41,4 +41,3 @@ while (listOne < firstList.length && listTwo < secondList.length) {
 // Output will need to be displayed in an array somewhere!
 let outPut = [];
 
-getInterSection()
