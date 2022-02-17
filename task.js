@@ -25,7 +25,9 @@ while (listOne < firstList.length && listTwo < secondList.length) {
 
     }
 
+    if(start < end) {
 
+    }
 
 }
 
