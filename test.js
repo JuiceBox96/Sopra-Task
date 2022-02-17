@@ -1,4 +1,4 @@
-
+const assert = require('assert');
 
 describe('Math', () => {
     describe('.min', () => {
