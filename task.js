@@ -2,6 +2,14 @@
 /*Write a function, GetIntersection which returns the intersection of these two interval lists.
 Write a test method which passes the supplied examples.*/
 
+/* firstList = [[0,2],[5,10],[13,23],[24,25]]
+secondList = [[1,5],[8,12],[15,24],[25,26]]
+
+Output:
+[[1,2],[5,5],[8,10],[15,23],[24,24],[25,25]]
+*/
+
+
 
 function GetInterSection (firstList, secondList) {
     
@@ -29,7 +37,7 @@ while (listOne < firstList.length && listTwo < secondList.length) {
     }
 //.push used to push (add) to the array. in this case should push to empty outPut variable
     if (start <= end) {
-        outPost.push[start,end];
+        outPut.push[start,end];
     }
 
     if (firstList[listOne][0] < secondList[listTwo][0]) {
