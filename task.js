@@ -32,7 +32,7 @@ while (listOne < firstList.length && listTwo < secondList.length) {
     let start = Math.max(firstList[listOne][0], secondList[listTwo][0])
 
     // max and min are used to go from smallest integer to largest //
-    let end = Math.min(firstList[listOne][0], secondList[listTwo][0])
+    let end = Math.min(firstList[listOne][1], secondList[listTwo][1])
 
     
 //.push used to push (add) to the array. in this case should push to empty outPut variable
