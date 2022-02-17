@@ -21,13 +21,10 @@ while (listOne < firstList.length && listTwo < secondList.length) {
     // max and min are used to go from smallest integer to largest //
     let end = math.min(secondList[0])
 
-    if (start =< end) {
-        console.log(start < end) {
-
-        }
     }
+
+    if(//statement here//)
   }
-};
 
 // Output will need to be displayed in an array somewhere!
 let outPut = [];
