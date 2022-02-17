@@ -11,7 +11,7 @@ Output:
 
 
 
-function GetInterSection (firstList, secondList) {
+function getInterSection (firstList, secondList) {
     
     //let variable used in this case as listOne and listTwo will be compared.//
     //Came to this conclusion as both are expecting outputs 
