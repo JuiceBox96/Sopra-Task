@@ -19,13 +19,12 @@ function getInterSection (firstList, secondList) {
     let listTwo = 0;
     
     // Output will need to be displayed in an array somewhere!
-    let output = [];
+    const output = [];
 
 //Another way this could have been created is possibly through for loop with another for loop nested. Haven't tested this method. 
 
 // listOne will be less than firstList but also get the whole length of the list. This will also be the same for listTwo.
-while (listOne < {firstList.length} && listTwo < secondList.length) {
-
+while (listOne < firstList.length && listTwo < secondList.length) {
     // Had to search and go through past resources used. Found math.max function to be more reliable for the exercise
     let start = Math.max(firstList[listOne][0], secondList[listTwo][0])
     
@@ -54,8 +53,3 @@ switch(firstList[listOne][0] < secondList[listTwo][0]) {
     return output;
 };
 
-// invoke function
-getInterSection()
-
-//Dom Element
-document.getElementById("results").innerHTML = "Output " + getInterSection;
