@@ -29,3 +29,9 @@ describe('listOne++', () => {
     });
   });
 
+  describe('listTwo++', () => {
+    it('returns the sum of its arguments', () => {
+      assert.ok
+    });
+  });
+
