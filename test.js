@@ -23,13 +23,13 @@ describe ('getInterSection', () => {
       })
 })
 
-describe('listOne++', () => {
+describe('one++', () => {
     it('returns the sum of its arguments', () => {
       assert.ok
     });
   });
 
-  describe('listTwo++', () => {
+  describe('two++', () => {
     it('returns the sum of its arguments', () => {
       assert.ok
     });

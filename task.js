@@ -9,8 +9,6 @@ Output:
 [[1,2],[5,5],[8,10],[15,23],[24,24],[25,25]]
 */
 
-
-
 function getInterSection (firstList, secondList) {
     
     //let local variable used in this case as listOne and listTwo will be compared
