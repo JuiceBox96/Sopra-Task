@@ -15,8 +15,8 @@ function getInterSection (firstList, secondList) {
     
     //let local variable used in this case as listOne and listTwo will be compared
     //Came to this conclusion as both are expecting outputs that are in relay to each other
-    let listOne = 0;
-    let listTwo = 0;
+    let one = 0;
+    let two = 0;
     
     // Output will need to be displayed in an array somewhere!
     const output = [];
@@ -24,31 +24,26 @@ function getInterSection (firstList, secondList) {
 //Another way this could have been created is possibly through for loop with another for loop nested. Haven't tested this method. 
 
 // listOne will be less than firstList but also get the whole length of the list. This will also be the same for listTwo.
-while (listOne < firstList.length && listTwo < secondList.length) {
+while (one < firstList.length && two < secondList.length) {
     // Had to search and go through past resources used. Found math.max function to be more reliable for the exercise
-    let start = Math.max(firstList[listOne][0], secondList[listTwo][0])
+    let start = Math.max(firstList[one][0], secondList[two][0])
     
     // max and min are used to go from smallest integer to largest
-    let end = Math.min(firstList[listOne][1], secondList[listTwo][1])
+    let end = Math.min(firstList[one][1], secondList[two][1])
 
     
 //.push used to push (add) to the array. in this case should push to empty outPut variable
-switch(start<=end) {
-    case 0:
-      output.push[start,end]
-       break;
-    }
-
-switch(firstList[listOne][0] < secondList[listTwo][0]) {
-        // listOne and listTwo will initiate the count using ++ increment 
-    case 0:
-      listOne++
-    break;
-      case 1:
-       listTwo++
-    break;
-    }
+if (start <= end) {
+    output.push([start, end])
   }
+      
+  // move a pointer depending on which end point of the interval is smaller
+  if (firstList[one][1] < secondList[two][1]) {
+    one++
+  } else {
+    two++
+  }
+}
 // return Output will be return to the array associated
     return output;
 };
