@@ -8,7 +8,7 @@ secondList = [[1,5],[8,12],[15,24],[25,26]]
 Output:
 [[1,2],[5,5],[8,10],[15,23],[24,24],[25,25]]
 */
-document.getElementById("results").innerHTML = "Output " + getInterSection;
+
 
 
 function getInterSection (firstList, secondList) {
@@ -24,7 +24,7 @@ function getInterSection (firstList, secondList) {
 //Another way this could have been created is possibly through for loop with another for loop nested. Haven't tested this method. 
 
 // listOne will be less than firstList but also get the whole length of the list. This will also be the same for listTwo.
-while (listOne < firstList.length && listTwo < secondList.length) {
+while (listOne < {firstList.length} && listTwo < secondList.length) {
 
     // Had to search and go through past resources used. Found math.max function to be more reliable for the exercise
     let start = Math.max(firstList[listOne][0], secondList[listTwo][0])
@@ -54,3 +54,8 @@ switch(firstList[listOne][0] < secondList[listTwo][0]) {
     return output;
 };
 
+// invoke function
+getInterSection()
+
+//Dom Element
+document.getElementById("results").innerHTML = "Output " + getInterSection;
