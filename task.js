@@ -13,8 +13,8 @@ document.getElementById("results").innerHTML = "Output " + getInterSection;
 
 function getInterSection (firstList, secondList) {
     
-    //let variable used in this case as listOne and listTwo will be compared.//
-    //Came to this conclusion as both are expecting outputs 
+    //let local variable used in this case as listOne and listTwo will be compared
+    //Came to this conclusion as both are expecting outputs that are in relay to each other
     let listOne = 0;
     let listTwo = 0;
     
@@ -26,10 +26,10 @@ function getInterSection (firstList, secondList) {
 // listOne will be less than firstList but also get the whole length of the list. This will also be the same for listTwo.
 while (listOne < firstList.length && listTwo < secondList.length) {
 
-    // Had to search and go through past resources used. Found math.max function to be more reliable for the exercise//
+    // Had to search and go through past resources used. Found math.max function to be more reliable for the exercise
     let start = Math.max(firstList[listOne][0], secondList[listTwo][0])
     
-    // max and min are used to go from smallest integer to largest //
+    // max and min are used to go from smallest integer to largest
     let end = Math.min(firstList[listOne][1], secondList[listTwo][1])
 
     
@@ -37,10 +37,10 @@ while (listOne < firstList.length && listTwo < secondList.length) {
 switch(start<=end) {
     case 0:
       output.push[start,end]
-       break
+       break;
     }
 
-switch (firstList[listOne][0] < secondList[listTwo][0]) {
+switch(firstList[listOne][0] < secondList[listTwo][0]) {
         // listOne and listTwo will initiate the count using ++ increment 
     case 0:
       listOne++
@@ -52,5 +52,5 @@ switch (firstList[listOne][0] < secondList[listTwo][0]) {
   }
 // return Output will be return to the array associated
     return output;
-}
+};
 
