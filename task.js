@@ -19,9 +19,7 @@ function getInterSection (firstList, secondList) {
     let listTwo = 0;
     
     // Output will need to be displayed in an array somewhere!
-    let outPut = [];
-
-//While loop will be best for this due to code being true when executed. Ideal for knowing the length on how many times the loop should run.
+    let output = [];
 
 //Another way this could have been created is possibly through for loop with another for loop nested. Haven't tested this method. 
 
@@ -37,7 +35,7 @@ while (listOne < firstList.length && listTwo < secondList.length) {
     
 //.push used to push (add) to the array. in this case should push to empty outPut variable
     if (start <= end) {
-        outPut.push[start,end];
+        output.push[start,end];
     }
 
     if (firstList[listOne][0] < secondList[listTwo][0]) {
@@ -48,7 +46,7 @@ while (listOne < firstList.length && listTwo < secondList.length) {
     }
   }
 // return Output will be return to the array associated
-    return outPut;
+    return output;
 }
 
 
