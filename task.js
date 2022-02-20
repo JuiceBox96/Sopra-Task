@@ -23,6 +23,7 @@ function getInterSection (firstList, secondList) {
 
 // listOne will be less than firstList but also get the whole length of the list. This will also be the same for listTwo.
 while (one < firstList.length && two < secondList.length) {
+
     // Had to search and go through past resources used. Found math.max function to be more reliable for the exercise
     let start = Math.max(firstList[one][0], secondList[two][0])
     
@@ -31,11 +32,11 @@ while (one < firstList.length && two < secondList.length) {
 
     
 //.push used to push (add) to the array. in this case should push to empty outPut variable
-if (start <= end) {
+  if (start <= end) {
     output.push([start, end])
   }
-      
-  // move a pointer depending on which end point of the interval is smaller
+
+  // if statement here is going to be using increment ++
   if (firstList[one][1] < secondList[two][1]) {
     one++
   } else {
