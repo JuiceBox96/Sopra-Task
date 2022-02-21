@@ -13,7 +13,9 @@ describe ('getInterSection', () => {
           })
         })
       })
-    
+
+      
+
       describe('Math', () => {
         describe('.max', () => {
           it('returns the argument with the high value', () => {
@@ -22,6 +24,8 @@ describe ('getInterSection', () => {
         })
       })
 })
+
+
 
 describe('one++', () => {
     it('returns the sum of its arguments', () => {

@@ -11,12 +11,12 @@ Output:
 
 function getInterSection (firstList, secondList) {
     
-    //let local variable used in this case as listOne and listTwo will be compared
+
     //Came to this conclusion as both are expecting outputs that are in relay to each other
     let one = 0;
     let two = 0;
     
-    // Output will need to be displayed in an array somewhere!
+    // Output will need to be displayed in an array somewhere
     const output = [];
 
 //Another way this could have been created is possibly through for loop with another for loop nested. Haven't tested this method. 
@@ -24,7 +24,7 @@ function getInterSection (firstList, secondList) {
 // listOne will be less than firstList but also get the whole length of the list. This will also be the same for listTwo.
 while (one < firstList.length && two < secondList.length) {
 
-    // Had to search and go through past resources used. Found math.max function to be more reliable for the exercise
+    // Had to search and go through past resources used. Found math.max to be more reliable for the exercise
     let start = Math.max(firstList[one][0], secondList[two][0])
     
     // max and min are used to go from smallest integer to largest
@@ -32,8 +32,9 @@ while (one < firstList.length && two < secondList.length) {
 
     
 //.push used to push (add) to the array. in this case should push to empty outPut variable
+// this will loop through both arrays one and two
   if (start <= end) {
-    output.push([start, end])
+    output.push([start,end])
   }
 
   // if statement here is going to be using increment ++
@@ -43,7 +44,7 @@ while (one < firstList.length && two < secondList.length) {
     two++
   }
 }
-// return Output will be return to the array associated
+// return Output will be return values to the array associated
     return output;
 };
 
