@@ -38,7 +38,7 @@ while (one < firstList.length && two < secondList.length) {
   }
 
   // if statement here is going to be using increment ++. This will be applied to 
-  if (firstList[one][1] < secondList[two][1]) {
+  if (firstList[one][0] < secondList[two][0]) {
     one++
   } else {
     two++
