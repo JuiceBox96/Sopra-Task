@@ -21,7 +21,7 @@ function getInterSection (firstList, secondList) {
 
 //Another way this could have been created is possibly through for loop with another for loop nested. Haven't tested this method. 
 
-// listOne will be less than firstList but also get the whole length of the list. This will also be the same for listTwo.
+// "one" will be less than firstList but also get the whole length of the list. This will also be the same for "two".
 while (one < firstList.length && two < secondList.length) {
 
     // Had to search and go through past resources used. Found math.max to be more reliable for the exercise
@@ -31,13 +31,13 @@ while (one < firstList.length && two < secondList.length) {
     let end = Math.min(firstList[one][1], secondList[two][1])
 
     
-//.push used to push (add) to the array. in this case should push to empty outPut variable
+//.push used to push (add) to the array. in this case should push to empty output variable
 // this will loop through both arrays one and two
   if (start <= end) {
     output.push([start,end])
   }
 
-  // if statement here is going to be using increment ++
+  // if statement here is going to be using increment ++. This will be applied to 
   if (firstList[one][1] < secondList[two][1]) {
     one++
   } else {

@@ -4,7 +4,7 @@ const assert = require('assert');
 
 // test for Math. functions
 describe ('getInterSection', () => {
-    it('returns nest variables, while loop and if statement')
+
 
     describe('Math', () => {
         describe('.min', () => {
@@ -21,8 +21,6 @@ describe ('getInterSection', () => {
         })
       })
     })
-
-
 
 // test for if statement increments 
 describe('one++', () => {
