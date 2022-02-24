@@ -1,4 +1,4 @@
-# Sopra-Task
+# Interval List Intersections
 
 ### Interval List Intersections
 
